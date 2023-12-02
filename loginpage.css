@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    background: linear-gradient(90deg, rgb(233, 233, 236) 18%, rgb(242, 242, 244) 41%, rgb(239, 238, 240) 65%, rgb(241, 241, 245) 87%);
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    }
+    
+    .container {
+      color: #000035;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    }
+    
+    form {
+    height: 320px;
+    padding: 3em;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    text-align: center;
+    }
+    
+    p {
+    font-weight: bold;
+    color: #1d0449;
+    opacity: 0.7;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    input {
+    background: transparent;
+    width: 220px;
+    font-size: 0.9em;
+    color: #1d0449;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.2);
+    }   
+    
+    input[type="email"]:focus ,
+    input[type="password"]:focus {
+     box-shadow: 2px 2px 40px 5px rgba(0,0,0,0.2);
+     outline: none;
+    }     
+    input::placeholder {
+    color: #1d0449;
+    font-weight: 400;
+    }
+    input[type="submit"] {
+    margin-top: 10px;
+    width: 150px;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    input[type="submit"]:hover
+    {
+      background-color: #000035;
+      color: white;
+    }
+    
+    
+    .drop {
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0,0,0,0.2);
+    position: absolute;
+    }
+    .drop-1 {
+    height: 70px;
+    width: 70px;
+    top: -15px;
+    left: -35px;
+    }
+    
+    .drop-2 {
+    height: 80px;
+    width: 80px;
+    bottom: -30px;
+    right: -30px;
+    z-index: -1;
+    }
+    
+    .drop-3 {
+    height: 100px;
+    width: 100px;
+    bottom: 130px;
+    right: -65px;
+    z-index: -1;
+    }
+    
+    .drop-4 {
+    height: 120px;
+    width: 120px;
+    top: -60px;
+    right: -70px;
+    }
+    
+    .drop-5 {
+    height: 80px;
+    width: 80px;
+    bottom: 310px;
+    left: -240px;
+    z-index: -1;
+    }
+    .drop-6 {
+    height: 80px;
+    width: 80px;
+    bottom: 180px;
+    left: -60px;
+    }
+    .drop-7 {
+    height: 150px;
+    width: 150px;
+    bottom: 50px;
+    left: -300px;
+    
+    }
+    .drop-8 {
+    height: 130px;
+    width: 130px;
+    bottom: 200px;
+    left: 530px;
+    
+    }
+    
+    
